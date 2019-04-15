@@ -4,3 +4,4 @@ push/emotes/*
 node_modules
 emotelist.csv
 emotelist.json
+package-lock.json

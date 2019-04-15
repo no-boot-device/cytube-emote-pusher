@@ -1,5 +1,5 @@
 #!/bin/bash
-#neocities push push/
+neocities push push/
 echo -n ""> emotelist.csv
 for e in push/emotes/*; do
 	if [[ "$e" == ".gitkeep" ]]; then

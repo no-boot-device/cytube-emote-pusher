@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs')
 var socket = require('socket.io-client')('https://vapor.cytu.be:10443/');
-var channel = (''+{}).replace(/[^a-z]/gi,(ㅤ)=>ㅤ==' '?'_':'')
+var channel = "object_Object"
 var timeout = setTimeout(()=>{console.log('Timed out');process.exit(1)},4000)
 var emoteList = require('./emotelist')
 

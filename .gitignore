@@ -1,0 +1,6 @@
+push/emotes/*
+!push/emotes/.gitkeep
+
+node_modules
+emotelist.csv
+emotelist.json
